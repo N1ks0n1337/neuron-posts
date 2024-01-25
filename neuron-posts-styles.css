@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/manrope/v14/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59FO_F.ttf) format('truetype');
+}
+
+body {
+    position: relative;
+    font-family: 'Manrope', sans-serif;
+    color: #1B193F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.h1 {
+    color: #1B193F;
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 100%;
+}
+
+.container {
+    max-width: 1476px !important;
+    width: 100% !important;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1 1 auto;
+    margin-bottom: 10px;
+}
+
+.page-block {
+    background: #F7FAFF;
+    border-radius: 20px;
+    padding: 62px 128px;
+    margin-bottom: 40px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 16px 80px;
+    border: 1px solid #1B193F;
+    background: #1B193F;
+    border-radius: 16px;
+    min-width: auto;
+}
+
+.button--transparent {
+    color: #1B193F;
+    background: transparent;
+}
+
+.button--gray {
+    border: none;
+    background: #F6F7FA;
+    color: #1B193F;
+}
+
+.neuron-news-card {
+    width: 93%;
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 19px 0px rgba(12, 57, 99, 0.10);
+}
+
+.neuron-news-card__img-cover {
+    max-width: 247px;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.neuron-news-card__img-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.neuron-news-card__content {
+    width: 100%;
+}
+
+.neuron-news-card__date {
+    display: block;
+    color: #98A0A2;
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+.neuron-news-card__title {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.neuron-news-card__text {
+    color: #98A0A2;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.tabs__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 1150px) {
+    .neuron-news-card {
+        width: 48%;
+    }
+}
+
+@media (max-width: 940px) {
+    .neuron-news-card {
+        width: 100%;
+    }
+}
